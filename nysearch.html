@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NY Times Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" href="assets/css/nytstyle.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="row alert alert-dark">
+      <div class="col-12 col-sm-6 col-md-4">
+        <h2 class="lead py-3">Rutgers Financial Application</h2>
+      </div>
+      <div class="col-12 col-sm-6 col-md-8">
+        <nav class="nav nav-pills flex-column flex-sm-row py-3 float-right">
+          <a class="flex-sm-fill text-sm-center nav-link nav-style text-dark" href="nytop41.html">Home</a>
+          <a class="flex-sm-fill text-sm-center nav-link nav-style text-dark active btn-outline-warning" href="nysearch.html">News</a>
+          <a class="flex-sm-fill text-sm-center nav-link nav-style text-dark" href="formpagev2.html">contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title text-white">News Search</h3>
+            </div>
+            <div class="panel-body">
+              <form role="form">
+
+                <div class="form-group text-white">
+                  <label for="search">Search Term:</label>
+                  <input type="text" class="form-control" id="search">
+                </div>
+
+                <div class="form-group text-white">
+                  <label for="num-records">Number of Records to Retrieve:</label>
+                  <select class="form-control" id="num-records">
+                    <option value="1">1</option>
+                    <option value="5" selected>5</option>
+                    <option value="10">10</option>
+                  </select>
+                </div>
+
+                <div class="form-group text-white">
+                  <label for="start-year">Start Year:</label>
+                  <input type="text" class="form-control" id="start-year">
+                </div>
+
+                <div class="form-group text-white">
+                  <label for="end-year">End Year:</label>
+                  <input type="text" class="form-control" id="end-year">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-outline-warning btn-sm my-2" id="search-btn">Search</button>
+                <button type="button" class="btn btn-outline-warning btn-sm my-2" id="clear">Clear</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-12 text-white">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Results</h3>
+            </div>
+            <div class="panel-body" id="well-section">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--Footer-->
+    <footer class="page-footer font-small dark pt-4 mt-4 border border-warning">
+
+      <!--Footer Links-->
+      <div class="container-fluid text-center text-md-left text-warning">
+        <div class="row">
+
+          <!--First column-->
+          <div class="col-md-6">
+            <h5>Created By:</h5>
+            <p>Fabian, Rob and Dan</p>
+          </div>
+          <!--/.First column-->
+
+          <!--Second column-->
+          <div class="col-md-6">
+            <h5 class="text-warning">Powered By:</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://developer.nytimes.com/" class="text-muted">NYT API</a>
+              </li>
+              <li>
+                <a href="https://www.alphavantage.co/" class="text-muted">AlphaVantage API</a>
+              </li>
+              <li>
+                <a href="https://iextrading.com/developer/docs/" class="text-muted">IEX api</a>
+              </li>
+            </ul>
+          </div>
+          <!--/.Second column-->
+        </div>
+      </div>
+      <!--/.Footer Links-->
+
+      <!--Copyright-->
+      <div class="footer-copyright py-3 text-center text-muted">
+        © 2018 Copyright:
+        <a href="https://bootcamp.rutgers.edu/" class="text-white">Rutgers Coding Bootcamp</a>
+      </div>
+      <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- jquery links-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="assets/js/nys.js"></script>
+
+</body>
+
+</html>

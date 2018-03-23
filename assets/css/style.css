@@ -1,0 +1,39 @@
+/* style.css */
+
+/* .container {
+  margin-left: 40px;
+  margin-right: 40px;
+
+} */
+
+.nav-style {
+  background-color: white;
+}
+
+.nav-style:hover {
+  background-color: lightblue;
+}
+
+.custom-captcha {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.news-section {
+  background: lightgreen;
+}
+
+.ticker {
+  background: lightblue;
+
+}
+
+#nav-bar-wrapper{
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+}
+
+#line {
+    color:white;
+}
+
+
+  .nav-style:hover {
+    background-color: gray;
+  }
+  
+  .custom-captcha {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  
+
